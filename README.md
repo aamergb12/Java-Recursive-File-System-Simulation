@@ -1,1 +1,22 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ujdzKRrW)
+# Java Recursive File System Simulation
+
+This project implements a recursive file system explorer in Java, using object-oriented design to represent files and folders.
+
+## 📦 Structure
+
+- `FileSystemElement`: Interface or abstract class for files/folders
+- `Recursion`: Recursive operations like counting, summing, printing
+- `TestCases`: Creates a mock file tree and runs recursion operations
+
+## 🧠 Recursive Methods
+
+- Count total elements
+- Calculate total file size
+- Pretty-print file structure
+- Search for a file by name
+
+## 🧪 Run Instructions
+
+```bash
+javac src/*.java test/TestCases.java
+java test.TestCases
